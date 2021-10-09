@@ -1,6 +1,6 @@
 import { defineConfig } from 'dumi';
 
-const repo = 'dumi-template';
+const repo = '帮助中心';
 
 export default defineConfig({
   title: repo,
