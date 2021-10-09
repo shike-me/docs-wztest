@@ -12,8 +12,8 @@ export default defineConfig({
   mode: 'site',
   hash: true,
   // Because of using GitHub Pages
-  base: `/docs-wztest`,
-  publicPath: `/docs-wztest/`,
+  base: `/`,
+  publicPath: `/`,
   navs: [
     null,
     {
