@@ -11,8 +11,7 @@ export default defineConfig({
   outputPath: 'docs-dist',
   mode: 'site',
   hash: true,
-  // Because of using GitHub Pages
-  base: `/`,
+   base: `/`,
   publicPath: `/`,
   navs: [
     null,
