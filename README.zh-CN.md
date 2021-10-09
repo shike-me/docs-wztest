@@ -2,7 +2,7 @@
 
 为组件开发场景而生的文档模板
 
-[English](./README.md) | 简体中文
+[English](./README.md) | 简体中文1
 
 ## 🚀 如何使用？
 
