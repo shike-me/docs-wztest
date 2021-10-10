@@ -15,34 +15,4 @@ export default defineConfig({
   publicPath: `/`,
 
   // more config: https://d.umijs.org/config
-
-
-    navs: {
-    // 多语言 key 值需与 locales 配置中的 key 一致
-    'en-US': [
-      null, // null 值代表保留约定式生成的导航，只做增量配置
-      {
-        title: 'Intelligent coding engine',
-        path: '/vice',
-      },
-      {
-        title: 'Media Processing Service',
-        path: '/mps',
-      },      
-    ],
-    'zh-CN': [
-      null, // null 值代表保留约定式生成的导航，只做增量配置
-      {
-        title: '智能编码引擎',
-        path: '/vice',
-      },
-    {
-      title: '媒体处理',
-      path: '/mps',
-    },
-    ],
-  },
- 
-
-
 });
