@@ -1,6 +1,6 @@
 import { defineConfig } from 'dumi';
 
-const repo = '帮助中心';
+const repo = 'Visionular';
 
 export default defineConfig({
   title: repo,
@@ -9,7 +9,7 @@ export default defineConfig({
   logo:
     'https://user-images.githubusercontent.com/9554297/83762004-a0761b00-a6a9-11ea-83b4-9c8ff721d4b8.png',
   outputPath: 'docs-dist',
-  mode: 'doc',
+  mode: 'site',
   hash: true,
    base: `/`,
   publicPath: `/`,
@@ -22,24 +22,23 @@ export default defineConfig({
     'en-US': [
       null, // null 值代表保留约定式生成的导航，只做增量配置
       {
-        title: 'GitHub',
-        path: 'https://github.com/shike-me/docs-wztest/',
+        title: 'Intelligent coding engine',
+        path: '/vice',
       },
+      {
+        title: 'Media Processing Service',
+        path: '/mps',
+      },      
     ],
     'zh-CN': [
       null, // null 值代表保留约定式生成的导航，只做增量配置
       {
-        title: 'GitHub',
-        path: 'https://github.com/shike-me/docs-wztest/',
+        title: '智能编码引擎',
+        path: '/vice',
       },
     {
-      title: '我有二级导航',
-      path: '/',
-      // 可通过如下形式嵌套二级导航菜单，目前暂不支持更多层级嵌套：
-      children: [
-        { title: '第一项', path: 'https://d.umijs.org' },
-        { title: '第二项', path: '/guide' },
-      ],
+      title: '媒体处理',
+      path: '/mps',
     },
     ],
   },
