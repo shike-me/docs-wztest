@@ -1,4 +1,9 @@
 ---
+nav:
+  title: 超高清引擎
+  order: 1
+
+
 title: dumi - A doc tool can assist you to develop libraries & write docs.
 order: 10
 hero:
