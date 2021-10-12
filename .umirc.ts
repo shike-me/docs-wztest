@@ -5,9 +5,9 @@ const repo = 'Visionular';
 export default defineConfig({
   title: repo,
   favicon:
-    'https://user-images.githubusercontent.com/9554297/83762004-a0761b00-a6a9-11ea-83b4-9c8ff721d4b8.png',
+    'https://visionular.cn/wp-content/uploads/2020/06/visionular-logo.png',
   logo:
-    'https://user-images.githubusercontent.com/9554297/83762004-a0761b00-a6a9-11ea-83b4-9c8ff721d4b8.png',
+    'https://visionular.cn/wp-content/uploads/2020/06/visionular-logo.png',
   outputPath: 'docs-dist',
   mode: 'site',
   hash: true,
@@ -15,4 +15,14 @@ export default defineConfig({
   publicPath: `/`,
 
   // more config: https://d.umijs.org/config
+    navs: {
+    // 多语言 key 值需与 locales 配置中的 key 一致
+    'en-US': [     
+    ],
+    'zh-CN': [
+    ],
+  },
+ 
+
+
 });
