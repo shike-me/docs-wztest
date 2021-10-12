@@ -13,27 +13,26 @@ export default defineConfig({
   publicPath: `/`,
 
   // more config: https://d.umijs.org/config
-  // navs: {
-  //   // 多语言 key 值需与 locales 配置中的 key 一致
-  //   'en-US': [   
+  navs: {
+    'en-US': [
          {
--        title: 'docs,
--        path: '/mps',
+        title: 'docs,
+        path: '/mps',
        },         
        {
--        title: 'home',
--        path: 'https://www.visionular.com',
-       }
-  //   ],
-  //   'zh-CN': [
+          title: 'home',
+          path: 'https://www.visionular.com',
+       },
+    ],
+    'zh-CN': [
       {
--        title: '文档中心,
--        path: '/mps',
+          title: '文档中心,
+          path: '/mps',
        },         
        {
--        title: '官网',
--        path: 'https://www.visionular.com',
-       }
-  //   ],
-  // },
+          title: '官网',
+          path: 'https://www.visionular.com',
+       },
+      ],
+    },
 });
