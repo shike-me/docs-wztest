@@ -15,9 +15,25 @@ export default defineConfig({
   // more config: https://d.umijs.org/config
   // navs: {
   //   // 多语言 key 值需与 locales 配置中的 key 一致
-  //   'en-US': [     
+  //   'en-US': [   
+         {
+-        title: 'docs,
+-        path: '/mps',
+       },         
+       {
+-        title: 'home',
+-        path: 'https://www.visionular.com',
+       }
   //   ],
   //   'zh-CN': [
+      {
+-        title: '文档中心,
+-        path: '/mps',
+       },         
+       {
+-        title: '官网',
+-        path: 'https://www.visionular.com',
+       }
   //   ],
   // },
 });
