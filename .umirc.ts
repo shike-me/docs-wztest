@@ -3,7 +3,7 @@ import { defineConfig } from 'dumi';
 const repo = 'docs';
 
 export default defineConfig({
-  // title: repo,
+  title: ' ',
   favicon:
     'https://visionular.cn/wp-content/uploads/2020/06/cropped-visionular-icon-image-32x32.png',
   logo:
@@ -22,5 +22,7 @@ export default defineConfig({
   //   'zh-CN': [
   //   ],
   // },
+ 
+
 
 });
