@@ -6,9 +6,10 @@ hero:
   desc: 📖 A doc tool can assist you to develop libraries & write docs.
   actions:
     - text: Getting Started
-      link: /components/foo
+      link: /mps
 features:
   - icon: https://gw.alipayobjects.com/zos/bmw-prod/881dc458-f20b-407b-947a-95104b5ec82b/k79dm8ih_w144_h144.png
+    link: /mps
     title: Out of the box
     desc: Elegant default configrations and convention routing assist developers to get started as simple as possible, that focus all attentions on developing libraries & writting docs
   - icon: https://gw.alipayobjects.com/zos/bmw-prod/d1ee0c6f-5aed-4a45-a507-339a4bfe076c/k7bjsocq_w144_h144.png
@@ -26,7 +27,7 @@ features:
   - icon: https://gw.alipayobjects.com/zos/bmw-prod/f093e060-726e-471c-a53e-e988ed3f560c/kj9t9sk7_w144_h144.png
     title: Asset dataization capabilities
     desc: One-line command digitizes component assets, and standardized asset data can be connected with downstream productivity tools
-footer: Open-source MIT Licensed | Copyright © 2019-present<br />Powered by self
+footer: visionular | Copyright © 2018-2021<br /> 
 ---
 
 ## Getting Started
@@ -47,11 +48,7 @@ $ mkdir docs && echo '# Hello dumi!' > docs/index.md
 $ npx dumi dev
 ```
 
-## Feedback
+ 
 
-Please visit [GitHub](https://github.com/umijs/dumi) or join the discuss group
+ 
 
-<div>
-  <img data-type="dingtalk" src="https://gw.alipayobjects.com/zos/bmw-prod/ec249703-be12-416c-8f33-297e47d9439c/kjy5ls84_w1004_h1346.png" width="300" />
-  <img data-type="wechat" src="https://gw.alipayobjects.com/zos/bmw-prod/c18bc2a5-719a-48ca-b225-c79ef88bfb43/k7m10ymd_w1004_h1346.jpeg" width="300" />
-</div>
