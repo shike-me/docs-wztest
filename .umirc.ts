@@ -16,7 +16,7 @@ export default defineConfig({
   navs: {
     'en-US': [
          {
-        title: 'docs,
+        title: 'docs',
         path: '/mps',
        },         
        {
@@ -26,7 +26,7 @@ export default defineConfig({
     ],
     'zh-CN': [
       {
-          title: '文档中心,
+          title: '文档中心',
           path: '/mps',
        },         
        {
