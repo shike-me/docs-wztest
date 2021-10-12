@@ -9,10 +9,12 @@ export default defineConfig({
   outputPath: 'docs-dist',
   mode: 'site',
   hash: true,
-   base: `/`,
+  base: `/`,
   publicPath: `/`,
-
   // more config: https://d.umijs.org/config
+  resolve:{
+   includes:['docs/mps', 'src', 'packages/pkg/src'],
+  },
   navs: {
     'en-US': [
          {
