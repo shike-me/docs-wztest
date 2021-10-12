@@ -1,6 +1,6 @@
 import { defineConfig } from 'dumi';
 
-const repo = '帮助中心';
+const repo = 'visionular';
 
 export default defineConfig({
   title: repo,
