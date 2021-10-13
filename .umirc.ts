@@ -11,26 +11,20 @@ export default defineConfig({
   hash: true,
   base: `/`,
   publicPath: `/`,
+
   // more config: https://d.umijs.org/config
-  resolve:{
-   includes:['docs/mps', 'src', 'packages/pkg/src'],
-  },
+
+
   navs: {
     'en-US': [
-         {
-        title: 'docs',
-        path: '/mps',
-       },         
+      null,
        {
           title: 'home',
           path: 'https://www.visionular.com',
        },
     ],
     'zh-CN': [
-      {
-          title: '文档中心',
-          path: '/mps',
-       },         
+      null,     
        {
           title: '官网',
           path: 'https://www.visionular.com',
