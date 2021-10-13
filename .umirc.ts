@@ -13,8 +13,7 @@ export default defineConfig({
   publicPath: `/`,
 
   // more config: https://d.umijs.org/config
-
-
+  exportStatic: {},
   navs: {
     'en-US': [
       null,
