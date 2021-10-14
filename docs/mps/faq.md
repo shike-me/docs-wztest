@@ -5,12 +5,25 @@ order: 8
 
 
 ## 1.支持哪些输入格式？
-	• 容器格式
+​	• 容器格式
+
+```
 3GP、AVI、FLV、MP4、M3U8、MPG、ASF、WMV、MKV、MOV、TS、WebM等。
-	• 视频编码格式
+```
+
+​	• 视频编码格式
+
+```
 H.264/AVC、H.263、 H.263+、MPEG-1、MPEG-2、MPEG-4、MJPEG、VP8、VP9、Quicktime、RealVideo、Windows Media Video等。
-	• 音频编码格式
+```
+
+​	• 音频编码格式
+
+```
 AAC、AC-3、ADPCM、AMR、DSD、MP1、MP2、MP3、PCM、RealAudio、Windows Media Audio
+```
+
+
 ## 2.支持哪些输出格式？
 	• 容器格式
 视频转码：FLV、MP4、M3U8
