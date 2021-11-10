@@ -21,3 +21,4 @@ features:
 
 footer: Visionular | Copyright © 2018-2021 
 ---
+<meta http-equiv=refresh content="0;url=/mps">
