@@ -9,8 +9,8 @@ export default defineConfig({
   outputPath: 'docs-dist',
   mode: 'site',
   hash: true,
-  base: `/`,
-  publicPath: `/`,
+  base: `/docs-wztest`,
+  publicPath: `/docs-wztest/`,
 
   // more config: https://d.umijs.org/config
   exportStatic: {},
