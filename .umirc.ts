@@ -1,8 +1,6 @@
-import { defineConfig } from 'dumi';
-
 const repo = 'visionular';
 
-export default defineConfig({
+export default ({
   title: repo,
   favicon:'https://visionular.cn/wp-content/uploads/2020/06/cropped-visionular-icon-image-32x32.png',
   logo:'https://visionular.cn/wp-content/uploads/2020/06/cropped-visionular-icon-image-32x32.png',
