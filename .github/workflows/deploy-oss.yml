@@ -3,7 +3,7 @@ name: deploy oss
 on:
   push:
     branches:
-      - main # default branch
+      - oss # default branch
 
 jobs:
   deploy:

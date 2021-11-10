@@ -14,6 +14,7 @@ export default defineConfig({
 
   // more config: https://d.umijs.org/config
   exportStatic: {},
+  locales:[['zh-CN', '中文'],['en-US', 'English']],
   navs: {
     'en-US': [
       null,
