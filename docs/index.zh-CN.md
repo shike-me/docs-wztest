@@ -8,4 +8,6 @@ hero:
 footer: Visionular | Copyright © 2018-2022 
 ---
 
-<meta http-equiv=refresh content="0;url=mps/">
+<script language="javascript" type="text/javascript">
+           window.location.href="mps/"; 
+</script>
