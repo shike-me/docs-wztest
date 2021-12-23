@@ -12,6 +12,12 @@ export default ({
 
   // more config: https://d.umijs.org/config
   exportStatic: {},
+  polyfill: {
+    imports: [
+      'element-remove',
+      'babel-polyfill'
+    ]
+  },
   locales:[['zh-CN', '中文'],['en-US', 'English']],
   navs: {
     'en-US': [
